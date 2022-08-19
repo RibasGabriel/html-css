@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        /* 
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        body{ 
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a{
+            color: blueviolet;
+            text-decoration: none;
+            font-weight:bold;
+        }
+        a:visited{
+            color: rgb(81, 30, 128);
+        }
+        a:hover {
+             color:black ;
+             text-decoration: underline;
+        }
+        a:active {
+            color:yellow;
+        }
+        .especial{
+            background-color: aquamarine;
+            color: silver;
+        }
+        .especial::before {
+            content:'⇝' ;
+        }
+        .especial::after{
+            content:'⇜'
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="https://youtube.com.br" class="especial">link para o Youtube</a></li>
+        <li><a href="https://google.com.br" class="especial">Link para o Google</a></li>
+        <li><a href="https://facebook.com.br">Link para o Facebook</a></li>
+    </ul>
+</body>
+</html>

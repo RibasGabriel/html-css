@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+        }
+        header{
+            background-color: white;
+            padding:5px;
+        }
+        footer{
+            margin: 0;
+            background-color: rgb(0, 0, 0);
+            padding: 4px;
+            color: white;
+        }
+        article{
+            margin:20px
+        }
+        article > aside {
+            background-color: rgb(129, 129, 129);
+        }
+        nav{
+            text-decoration: none;
+            background-color: rgb(92, 92, 92);
+            padding:3px;
+            box-shadow: 2px 2px 4px 1px rgba(3, 3, 3, 0.473);
+        }
+        nav > a {
+            text-decoration: none;
+            margin:50px;
+            color:white;
+        }
+        footer > p {
+            margin:0px;
+        }
+        main{
+            border-radius: 0px 15px;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 6px 6px rgba(0, 0, 0, 0.493);
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Assuntos">
+            
+        </section>
+        <section id="Notícias">
+            <article>
+                <h2>Segundo título</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus quod, hic laudantium id perspiciatis blanditiis distinctio modi fugiat, facere incidunt corporis? Eligendi alias architecto natus quibusdam deserunt dolorum veniam rerum!</p>
+                <aside>
+                    <p>Artigo escrito por Manoel Peixoto</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+       <p>Desenvolvido por Gabriel Ribeiro
+       </p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

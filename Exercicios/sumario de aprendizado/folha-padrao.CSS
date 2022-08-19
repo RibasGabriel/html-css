@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@font-face {
+    font-family:'tolkien' ;
+    src: url('Tolkien.ttf') format('truetype');
+    font-weight:19px;
+}
+body{
+    color: #ffd700;
+    background-color:#2B640A ;  
+    font-family:'tolkien';
+}
+h1{
+    font-size: 4em;
+    font-style: italic;
+}
+h2{
+    font-size:2em;
+}
+

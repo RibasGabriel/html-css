@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/* tudo o que em HTML é ID="" em CSS é # (apenas para 1 elemento)
+e tudo o que é CLASS em html em css é . (para mais de um elemento) */
+body{
+    background-color: rgba(197, 255, 255, 0.795);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: rgb(255, 206, 146);
+}
+h1#Home{
+    text-align: center;
+    background-color: aqua;
+    color:#fff;
+    }
+h2{
+    color: rgb(139, 243, 186);
+}    
+.basico{ color: rgba(113, 175, 100, 0.863);}
+.intermediario{color: rgba(174, 175, 100, 0.863);}
+.avançado{color: rgba(175, 100, 100, 0.863);}
+
